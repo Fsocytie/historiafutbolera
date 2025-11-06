@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Kaká Legacy — Tributo</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-yH4Wb8M5wQ3YhC0v1W2x3g7Z8f4V1QzqzYk1F4f+0f3cZz8t5mK9Xo5v3c8yWf3Yq4ZyA2G3b5iZyX8a4h8QJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-GYbF8vE2qVt0k6O0m3F1bH7a9OQm1WbQXl2Q8G0f3kqz2QnU0b9g9y3i6zE8bQ5Jx8a4Z3sLxX0c1k7M3QdYxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Overlay para efecto de grano/luces -->
+  <div class="golden-noise"></div>
+
+  <!-- Header fijo con glassmorphism -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <i class="fa-solid fa-futbol"></i>
+        <span>Kaká <strong>Legacy</strong></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#trayectoria" class="nav-link">Trayectoria</a>
+        <a href="#logros" class="nav-link">Logros</a>
+        <a href="#galeria" class="nav-link">Galería</a>
+        <a href="#inspiracion" class="nav-link">Inspiración</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="inicio" class="hero">
+    <div class="hero-media" aria-hidden="true">
+      <!-- Utiliza tus imágenes locales del directorio imagenes 2.0 como fondo alternativo -->
+      <picture>
+        <source media="(max-width: 768px)" srcset="imagenes 2.0/kaká_.jpg" />
+        <img src="imagenes 2.0/KAAAAAHHKA.jpg" alt="Kaká celebrando" />
+      </picture>
+    </div>
+    <div class="container hero-content" data-aos="fade-up">
+      <h1 class="headline">
+        Talento, fe y <span class="gold">elegancia</span> dentro del campo.
+      </h1>
+      <p class="subhead">Ricardo Izecson dos Santos Leite</p>
+      <a href="#trayectoria" class="btn primary glow">Descubre su historia</a>
+    </div>
+    <div class="hero-gradient"></div>
+  </main>
+
+  <!-- Trayectoria -->
+  <section id="trayectoria" class="section timeline-section">
+    <div class="container">
+      <header class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Trayectoria</h2>
+        <p class="section-desc">Un recorrido por los clubes que marcaron su leyenda y los valores que lo distinguen: humildad, fe y juego limpio.</p>
+      </header>
+
+      <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <h3>São Paulo FC</h3>
+          <small>2001 - 2003</small>
+          <p>Donde todo comenzó. Debut profesional, regate ligero y visión de juego.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <h3>AC Milan</h3>
+          <small>2003 - 2009, 2013-2014</small>
+          <p>La cumbre europea: magia en San Siro, Champions 2007 y Balón de Oro 2007.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <h3>Real Madrid</h3>
+          <small>2009 - 2013</small>
+          <p>Elegancia en la Casa Blanca, asistencias milimétricas y goles decisivos.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <h3>Orlando City</h3>
+          <small>2014 - 2017</small>
+          <p>Embajador del fútbol en la MLS, liderazgo y ejemplo para nuevas generaciones.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <h3>Selección de Brasil</h3>
+          <small>2002 - 2016</small>
+          <p>Campeón del mundo 2002. Talento brasileño con fe y gratitud.</p>
+        </div>
+      </div>
+
+      <div class="values" data-aos="fade-up" data-aos-delay="200">
+        <p>
+          Estilo de juego: conducción elegante a máxima velocidad, regate en corto, definición precisa. Humildad dentro y fuera de la cancha, y valores cristianos que guiaron su carrera: “A Dios sea la gloria”.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logros -->
+  <section id="logros" class="section achievements-section">
+    <div class="container">
+      <header class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Logros</h2>
+        <p class="section-desc">Hitos que inmortalizan su legado.</p>
+      </header>
+      <div class="achievements-grid">
+        <article class="card" data-aos="zoom-in">
+          <i class="fa-solid fa-trophy icon"></i>
+          <h3>Balón de Oro</h3>
+          <p>2007</p>
+        </article>
+        <article class="card" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fa-solid fa-champagne-glasses icon"></i>
+          <h3>UEFA Champions League</h3>
+          <p>2007</p>
+        </article>
+        <article class="card" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fa-solid fa-earth-americas icon"></i>
+          <h3>Mundial</h3>
+          <p>2002</p>
+        </article>
+        <article class="card" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fa-solid fa-futbol icon"></i>
+          <h3>FIFA Jugador del Año</h3>
+          <p>Reconocimientos a su excelencia y fair play</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="section gallery-section">
+    <div class="container">
+      <header class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Galería</h2>
+        <p class="section-desc">Momentos que definieron su grandeza.</p>
+      </header>
+
+      <div class="carousel" data-aos="fade-up">
+        <button class="carousel-btn prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="carousel-track">
+          <img src="imagenes 2.0/top 1.jpg" alt="Kaká con trofeo" class="carousel-item" />
+          <img src="imagenes 2.0/𝐊_𝟐𝟐.jpg" alt="Kaká en acción" class="carousel-item" />
+          <img src="imagenes 2.0/el mejor.jpg" alt="Celebración de gol" class="carousel-item" />
+        </div>
+        <button class="carousel-btn next" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+        <img src="" alt="Foto ampliada" class="lightbox-image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Inspiración / Frases -->
+  <section id="inspiracion" class="section quotes-section">
+    <div class="container">
+      <header class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Inspiración</h2>
+        <p class="section-desc">Pensamientos que reflejan su esencia.</p>
+      </header>
+      <div class="quotes" data-aos="fade-up" data-aos-delay="100">
+        <blockquote>“Mi talento viene de Dios. Creo que el fútbol es un don.”</blockquote>
+        <blockquote>“Siempre intento honrar a Dios con lo que hago dentro y fuera del campo.”</blockquote>
+        <blockquote>“La fe, la disciplina y el trabajo en equipo llevan a la victoria.”</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section contact-section">
+    <div class="container">
+      <header class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-desc">¿Eres fan o quieres colaborar? Envíanos un mensaje.</p>
+      </header>
+
+      <div class="contact-grid" data-aos="fade-up" data-aos-delay="100">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-field">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+            <small class="error">Ingresa tu nombre.</small>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+            <small class="error">Ingresa un email válido.</small>
+          </div>
+          <div class="form-field">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+            <small class="error">Escribe un mensaje.</small>
+          </div>
+          <button type="submit" class="btn primary glow full">Enviar</button>
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-info">
+          <div class="socials">
+            <a href="https://www.instagram.com/kaka" target="_blank" rel="noopener" class="social">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/KAKA" target="_blank" rel="noopener" class="social">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=Kak%C3%A1" target="_blank" rel="noopener" class="social">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+          <div class="contact-bg-hint">
+            <i class="fa-solid fa-stadium"></i>
+            <span>Estadio iluminado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Página tributo a Kaká. Creada por fans – © 2025.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-0ZVQw3iQ4o3rQFQ8nHqgV0Uo6rGvH6rjN/1Y9M5F2t4h2wqYcR5V5I9X2vM6O3T5V0P8mYgZkJwQO0d5w3y1vA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
